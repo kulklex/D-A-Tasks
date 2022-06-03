@@ -1,4 +1,5 @@
 import java.math.BigDecimal;
+import java.math.RoundingMode;
 import java.text.NumberFormat;
 
 public class Interest {
@@ -11,7 +12,7 @@ public class Interest {
         for(int year = 1; year <=10; year++){
             BigDecimal amount = principal.multiply(rate.add(BigDecimal.ONE).pow(year));
 
-            System.out.printf("%4d%20s%n", year, NumberFormat.getCurrencyInstance().format(amount));
+            System.out.printf("%4d%20s%n", year, NumberFormat.getCurrencyInstance().format(amount.setScale(2, RoundingMode.HALF_EVEN)));
         }
 
     }
