@@ -1,0 +1,5 @@
+100 bob jones 24.98
+200 Steve doe -345.67
+300 pam white 0.00
+400 sam stone -42.16
+500 Sue Rich 224.62

@@ -1,5 +1,6 @@
 {
     "java.project.sourcePaths": [
+        "Files",
         "Chapter9",
         "Chapter8",
         "Chapter7",
@@ -7,8 +8,9 @@
         "Chapter5",
         "Chapter4",
         "Chapter2",
+        "Chapter14",
         "Chapter11",
         "Chapter10",
-        "Chapter14"
+        "Collections"
     ]
 }
