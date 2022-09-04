@@ -1,10 +1,10 @@
 import React from 'react'
 import Link from "next/link"
-import styles from "../../styles/Home.module.css"
+import styles from "../../styles/User.module.css"
 
 export default function Users() {
   return (
-    <div className={styles.container}>
+    <div className={styles.body}>
       <h1>Users Page</h1>
       <Link href="/">Index</Link>
       <br/>
