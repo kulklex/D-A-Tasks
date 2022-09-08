@@ -1,5 +1,5 @@
 import axios from "axios";
-import React, {useState} from "react";
+import React from "react";
 
 export default function Home({users}) {
   return (
@@ -8,7 +8,7 @@ export default function Home({users}) {
       <hr/>
 
 
-      {users.map(user => (<div>
+      {users.map(user => (<div key={user.id}>
         <h4>Name: {user.name} </h4>
         <h6>Age: {user.age}</h6>
         <hr/>

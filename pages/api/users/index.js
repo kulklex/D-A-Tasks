@@ -1,5 +1,6 @@
 import nc from "next-connect";
 
+
 const users = [
     {id: 1, name: "Dan", age: 20},
     {id: 2, name: "Fan", age: 230},
